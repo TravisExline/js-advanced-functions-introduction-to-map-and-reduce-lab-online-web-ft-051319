@@ -21,6 +21,13 @@ function mapToDouble(sourceArray) {
   }
 }
 
+function mapToSquare(sourceArray) {
+  let numArray = []
+  for (let i = 0; i < sourceArray.length; i++) {
+    numArray.push(sourceArray[i] * sourceArray[i])
+  }
+}
+
 function reduceToTotal(sourceArray, startingPoint=0) {
   let total = startingPoint
   for (let i = 0; i < sourceArray.length; i++) {
