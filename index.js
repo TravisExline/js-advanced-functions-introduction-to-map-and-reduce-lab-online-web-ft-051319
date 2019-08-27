@@ -14,7 +14,7 @@ function mapToNoChange(sourceArray) {
   return numArray
 }
 
-function reduceToTotal(sourceArray, startingPoint) {
+function reduceToTotal(sourceArray, startingPoint=0) {
   let total = startingPoint
   for (let i = 0; i < sourceArray.length; i++) {
     total = total + sourceArray[i]
