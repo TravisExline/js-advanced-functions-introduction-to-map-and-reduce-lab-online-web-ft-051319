@@ -15,5 +15,8 @@ function mapToNoChange(sourceArray) {
 }
 
 function reduceToTotal(sourceArray, startingPoint) {
-
+  let total = startingPoint
+  for (let i = 0; i < sourceArray.length; i++) {
+    total = total + sourceArray[1]
+  }
 }
