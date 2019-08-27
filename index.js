@@ -19,6 +19,7 @@ function mapToDouble(sourceArray) {
   for (let i = 0; i < sourceArray.length; i++) {
     numArray.push(sourceArray[i] * 2)
   }
+  return numArray
 }
 
 function mapToSquare(sourceArray) {
