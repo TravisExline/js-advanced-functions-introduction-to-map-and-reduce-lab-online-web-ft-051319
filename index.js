@@ -14,6 +14,13 @@ function mapToNoChange(sourceArray) {
   return numArray
 }
 
+function mapToDouble(sourceArray) {
+  let numArray = []
+  for (let i = 0; i < sourceArray.length; i++) {
+    numArray.push(sourceArray[i] * 2)
+  }
+}
+
 function reduceToTotal(sourceArray, startingPoint=0) {
   let total = startingPoint
   for (let i = 0; i < sourceArray.length; i++) {
