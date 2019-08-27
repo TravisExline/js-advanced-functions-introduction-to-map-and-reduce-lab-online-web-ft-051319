@@ -13,3 +13,7 @@ function mapToNoChange(sourceArray) {
   }
   return numArray
 }
+
+function reduceToTotal(sourceArray, startingPoint) {
+
+}
