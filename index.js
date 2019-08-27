@@ -21,3 +21,10 @@ function reduceToTotal(sourceArray, startingPoint) {
   }
   return total
 }
+
+function reduceToAllTrue(sourceArray) {
+  for (let i = 0; i < src.length; i++ ) {
+    if (!src[i]) return false
+  }
+  return true
+}
