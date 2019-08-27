@@ -19,4 +19,5 @@ function reduceToTotal(sourceArray, startingPoint) {
   for (let i = 0; i < sourceArray.length; i++) {
     total = total + sourceArray[i]
   }
+  return total
 }
